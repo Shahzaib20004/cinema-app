@@ -1,0 +1,23 @@
+.seat-selection-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.seat-selection-page h2 {
+  margin-bottom: 10px;
+}
+
+.seat-confirm-button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.seat-confirm-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

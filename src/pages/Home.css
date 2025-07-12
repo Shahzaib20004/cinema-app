@@ -1,0 +1,51 @@
+.home-page {
+  text-align: center;
+}
+
+.welcome-section {
+  padding: 40px 20px;
+  background: #fff5f5;
+}
+
+.welcome-section h1 {
+  margin-bottom: 10px;
+}
+
+.welcome-section p {
+  margin: 8px 0;
+}
+
+.promo-message {
+  font-weight: bold;
+  color: #ff5a5f;
+}
+
+.browse-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.browse-button:hover {
+  background-color: #e0484d;
+}
+
+.features-section {
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.features-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features-section li {
+  margin: 12px 0;
+  font-size: 18px;
+}

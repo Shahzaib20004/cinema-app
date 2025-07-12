@@ -1,0 +1,42 @@
+.seat-map {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.screen {
+  background-color: #444;
+  color: white;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.seats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #ccc;
+  transition: 0.2s;
+}
+
+.seat.selected {
+  background-color: #ff5a5f;
+  color: white;
+}
+
+.seat.booked {
+  background-color: #555;
+  color: white;
+  cursor: not-allowed;
+}

@@ -1,0 +1,37 @@
+.user-form {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.user-form__group {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form__group label {
+  margin-bottom: 4px;
+}
+
+.user-form__group input,
+.user-form__group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-form__button {
+  padding: 10px 20px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-form__button:hover {
+  background-color: #e0484d;
+}

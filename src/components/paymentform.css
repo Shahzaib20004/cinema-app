@@ -1,0 +1,42 @@
+.payment-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.payment-form h3 {
+  margin-bottom: 15px;
+}
+
+.payment-form__group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-form__group label {
+  margin-bottom: 5px;
+}
+
+.payment-form__group input,
+.payment-form__group select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.payment-form__button {
+  padding: 10px 20px;
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-form__button:hover {
+  background-color: #e0484d;
+}
